@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+
+body{
+    background-color: blue;
+    /*background: linear-gradient(to bottom,#0d0d0d,#1b1b1b,#2b1f0f);*/
+    color: white;
+    overflow: hidden;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,rgba(0,0,0,.7)),url('https:images.unsplach.com/photo-1568322445389-f64ac2515020?q=80&w=1400&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero1
